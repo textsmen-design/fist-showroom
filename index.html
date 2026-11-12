@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<!-- PRE-LAUNCH: убрать noindex только в день публичного запуска (решение владельца) -->
+<meta name="robots" content="noindex, nofollow">
+<title>FIST — цифровая лаборатория GONKA LAB</title>
+<meta name="description" content="Расскажите идею своими словами — без технического задания. Пятёрка ИИ-сотрудников FIST поможет понять суть и предложит, как её реализовать. Первый разбор бесплатный.">
+<meta name="theme-color" content="#0a0a0c">
+<link rel="canonical" href="https://fist.gonka.blog/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://fist.gonka.blog/">
+<meta property="og:title" content="FIST — RAW IDEA IN. EXCEPTIONAL PRODUCT OUT.">
+<meta property="og:description" content="Есть идея? Расскажите как умеете. Цифровая лаборатория GONKA LAB поможет превратить её в продукт.">
+<meta property="og:image" content="https://fist.gonka.blog/assets/img/og-fist.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/fist-mark.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/img/hero-team-900.webp" media="(max-width: 900px)">
+<link rel="preload" as="image" href="assets/img/hero-team-1436.webp" media="(min-width: 901px)">
+<link rel="stylesheet" href="assets/site.css?v=20261112_1">
+</head>
+<body>
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="FIST — на главную"><img src="assets/fist-mark.svg" alt="" width="32" height="32"><span>FIST</span><small>GONKA LAB</small></a>
+  <button class="burger" id="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="menu">☰</button>
+  <nav id="menu" aria-label="Разделы">
+    <a href="#how">Как работает</a>
+    <a href="#team">Пятёрка</a>
+    <a href="#anatomy">Анатомия</a>
+    <a href="#results">Результаты</a>
+    <a href="#guard">FIST Guard</a>
+    <a class="nav-cta" href="#ideas">Рассказать идею</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- 1. СТАРТ -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">GONKA LAB <span class="sl">//</span> DIGITAL FACTORY</p>
+      <h1 class="slogan"><span>RAW IDEA IN.</span><b>EXCEPTIONAL PRODUCT OUT.</b></h1>
+      <p class="lead">Расскажите идею своими словами — даже если не знаете, как её правильно сформулировать. Пятёрка ИИ-сотрудников FIST поможет понять суть и предложит, как её реализовать. Решения принимает человек.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#ideas">Расскажи, что задумал</a>
+        <a class="btn" href="#how">Посмотреть, как работает FIST</a>
+      </div>
+    </div>
+    <figure class="hero-art">
+      <picture>
+        <source media="(max-width: 900px)" srcset="assets/img/hero-team-900.webp">
+        <img src="assets/img/hero-team-1436.webp" width="1436" height="588" fetchpriority="high"
+             alt="Пятёрка FIST в лаборатории: Альфред с ноутбуком, Степан в оранжевом, Ирина в бордовом костюме, Пётр в зелёной рубашке, Леонид в синей куртке и кепке">
+      </picture>
+      <figcaption class="crew-row" id="heroCrew" aria-label="Пятёрка FIST"></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 2. КАК РАБОТАЕТ: МЫСЛЬ → ПРОДУКТ -->
+<section class="sec" id="how">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Главный принцип</p>
+      <h2>Техническое задание писать не нужно</h2>
+      <p>Можно с ошибками и с полуслова. Команда отделит известное от догадок, задаст вопросы и превратит мысль в результат.</p>
+    </div>
+    <div class="demo-pick" id="demoPick" role="tablist" aria-label="Примеры идей"></div>
+    <div class="demo" id="demo">
+      <ol class="demo-flow" aria-label="Этапы">
+        <li data-st="0"><span>1</span>Неуклюжая мысль</li>
+        <li data-st="1"><span>2</span>Понимание</li>
+        <li data-st="2"><span>3</span>Командная работа</li>
+        <li data-st="3"><span>4</span>Результат</li>
+      </ol>
+      <div class="demo-stage" id="demoStage" aria-live="polite"></div>
+      <div class="demo-ctl">
+        <button class="btn" id="demoBack" type="button">← Назад</button>
+        <button class="btn primary" id="demoNext" type="button">Дальше →</button>
+      </div>
+    </div>
+    <p class="demo-note" role="note"><b>Это демонстрация:</b> заранее подготовленные примеры, а не живой ИИ. Посетители сайта к рабочим агентам не подключаются.</p>
+  </div>
+</section>
+
+<!-- 3. ПЯТЁРКА -->
+<section class="sec sec-dark" id="team">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Пятёрка FIST</p>
+      <h2>Пять пальцев одной руки</h2>
+      <p>ИИ-ассистенты с характером, специализацией и своими границами. Художественные образы — не реальные люди.</p>
+    </div>
+    <div class="team" id="team5" role="tablist" aria-label="Сотрудники"></div>
+    <article class="person" id="person" aria-live="polite"></article>
+  </div>
+</section>
+
+<!-- 4. КУЛАК -->
+<section class="sec" id="fist">
+  <div class="wrap fist-grid">
+    <div class="fist-art" aria-hidden="true">
+      <svg viewBox="0 0 320 300" id="fistSvg">
+        <defs><linearGradient id="cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6b46e"/><stop offset="1" stop-color="#a94c16"/></linearGradient></defs>
+        <g class="fingers-open">
+          <rect class="f f1" x="34"  y="120" width="40" height="92" rx="20"/>
+          <rect class="f f2" x="86"  y="40"  width="40" height="150" rx="20"/>
+          <rect class="f f3" x="138" y="22"  width="40" height="168" rx="20"/>
+          <rect class="f f4" x="190" y="38"  width="40" height="152" rx="20"/>
+          <rect class="f f5" x="242" y="70"  width="38" height="124" rx="19"/>
+        </g>
+        <path class="palm" d="M74 176h206v38c0 40-30 70-70 70h-70c-40 0-66-30-66-70z" fill="url(#cu)"/>
+        <text x="160" y="250" text-anchor="middle" class="palm-t">ЧЕЛОВЕК</text>
+      </svg>
+    </div>
+    <div>
+      <p class="eyebrow">Почему FIST</p>
+      <h2>Палец можно сломать. Кулак — сильнее.</h2>
+      <p class="big">Каждый силён в своём. Результат появляется, когда пятеро работают вместе, а ладонь — человек — держит их в одном направлении.</p>
+      <button class="btn primary" id="fistBtn" type="button" aria-pressed="false">Сжать кулак</button>
+    </div>
+  </div>
+</section>
+
+<!-- 5. АНАТОМИЯ -->
+<section class="sec sec-dark" id="anatomy">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Анатомия цифрового завода</p>
+      <h2>Девять пит-стопов от идеи до финиша</h2>
+      <p>Нажмите на пит-стоп. Трасса гибкая: работа может вернуться назад или идти параллельно.</p>
+    </div>
+    <div class="track" id="track" role="tablist" aria-label="Пит-стопы"></div>
+    <div class="pit" id="pit" aria-live="polite"></div>
+    <div class="loops" id="loops"></div>
+  </div>
+</section>
+
+<!-- 6. ОКНО ИДЕЙ -->
+<section class="sec ideas" id="ideas">
+  <div class="wrap ideas-grid">
+    <div class="ideas-art" aria-hidden="true">
+      <img src="assets/img/stepan-poster.webp" width="480" height="613" loading="lazy" alt="">
+    </div>
+    <div class="ideas-main">
+      <p class="eyebrow">Окно идей</p>
+      <h2>Есть идея? Расскажи как умеешь</h2>
+      <p class="big">Мы изучим вашу идею и подготовим предварительное предложение. Если оно заинтересует — вместе обсудим детали, стоимость и сроки. Первый разбор бесплатный и ни к чему не обязывает.</p>
+
+      <div class="idea-form idea-mail-box">
+        <p class="big idea-intro"><strong>Первый публичный релиз:</strong> приём идей открыт напрямую через рабочую почту лаборатории — без посредников, сложных анкет и промежуточных серверов.</p>
+        <p>Расскажите суть задачи своими словами — даже если формулировка кажется неловкой. Технические детали, бюджет и стек знать заранее не нужно: команда разложит всё по полочкам.</p>
+
+        <div class="cta-mail-group">
+          <a class="btn primary big-btn" id="ideaMailBtn" href="mailto:textsmen@yandex.ru?subject=%D0%98%D0%B4%D0%B5%D1%8F%20%D0%B4%D0%BB%D1%8F%20GONKA%20LAB%20%C2%B7%20FIST">
+            ✉ Рассказать идею · textsmen@yandex.ru
+          </a>
+          <button type="button" class="btn" id="copyMailBtn" aria-label="Скопировать email адрес">📋 Скопировать адрес</button>
+        </div>
+
+        <div class="help-row mail-help">
+          <span>Нажатие откроет почтовое приложение с готовой темой письма. Ответим в этой же цепочке.</span>
+        </div>
+
+        <p class="warn-box">Пожалуйста, не присылайте пароли, токены доступа, платёжные данные и другие секреты. Для первого разбора достаточно общего описания замысла.</p>
+
+        <div class="stage2-badge">
+          <span class="st st-dev">в разработке</span>
+          <span class="muted small">Автоматическая форма с регистрацией номеров IDEA-XXXX уже прошла 11 автотестов и будет подключена на этапе 2 после настройки выделенного сервера.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. РЕЗУЛЬТАТЫ -->
+<section class="sec" id="results">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Действительные результаты</p>
+      <h2>Что уже сделано — и что ещё нет</h2>
+      <p>Планы не выдаём за готовое. Отзывов и клиентов здесь нет — потому что их пока нет.</p>
+    </div>
+    <div class="legend-st" id="stFilter" role="group" aria-label="Фильтр по состоянию"></div>
+    <div class="results" id="resultsList"></div>
+  </div>
+</section>
+
+<!-- 8. FIST GUARD -->
+<section class="sec sec-dark" id="guard">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Продукт лаборатории №1</p>
+      <h2>FIST Guard — проверка проекта на секреты до публикации</h2>
+      <p>Ключ от ИИ-сервиса в коде или токен бота в репозитории могут увидеть чужие люди. FIST Guard находит их до того, как проект уйдёт на GitHub.</p>
+    </div>
+    <div class="guard-grid">
+      <figure class="shot"><img src="assets/img/guard-report.webp" alt="Отчёт FIST Guard на демо-проекте с выдуманными ключами: вердикт КРАСНЫЙ, значения замаскированы" loading="lazy" width="1100" height="1467"><figcaption>Демо-версия на учебном проекте «Пекарня Колосок». Все ключи выдуманные.</figcaption></figure>
+      <div>
+        <div class="lights">
+          <div class="light g"><b>🟢 Зелёный</b><span>автоматическая проверка не нашла секретов, которые уйдут при публикации</span></div>
+          <div class="light y"><b>🟡 Жёлтый</b><span>критичного нет, но есть пароли — проверить вручную</span></div>
+          <div class="light r"><b>🔴 Красный</b><span>найден ключ, токен или файл .env, который уйдёт наружу</span></div>
+        </div>
+        <ul class="facts">
+          <li><span class="st st-tested">протестировано</span><b>33 автотеста</b><span>12.11.2026: 33 из 33 на публичной демо-версии</span></li>
+          <li><span class="st st-tested">замерено</span><b>0,2–0,3 с</b><span>Наш замер: 10 запусков на демо-проекте из 9 файлов, MacBook Air 2015. На больших проектах дольше.</span></li>
+          <li><span class="st st-done">по анализу кода</span><b>Не выходит в интернет</b><span>Нет сетевых библиотек; интерфейс открывается только на вашем компьютере (127.0.0.1). Не независимый аудит.</span></li>
+          <li><span class="st st-done">реализовано</span><b>Значения скрыты</b><span>Ключи в отчёте маскируются: <code>sk-p…E1 [48 симв.]</code></span></li>
+        </ul>
+        <p class="caveat"><b>Честно:</b> автоматическая проверка снижает риск, но не гарантирует, что секретов нет. Опубликована <b>демонстрационная версия</b>: она не ищет в истории git и не проверяет персональные данные — это есть только в закрытой полной версии, которая не публикуется.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div><p class="eyebrow">Claude Code + Claude Skill</p>
+        <h3>Помощник объясняет находки простыми словами</h3>
+        <p>Откройте проект в Claude Code и попросите «проверь папку перед публикацией». Claude запустит FIST Guard, объяснит находки и предложит план. Исправления — только с вашего согласия.</p></div>
+      <div class="cta-col">
+        <a class="btn primary" id="lnRepo" href="https://github.com/textsmen-design/fist-guard" target="_blank" rel="noopener noreferrer">FIST Guard на GitHub ↗</a>
+        <a class="btn" id="lnSkill" href="https://github.com/textsmen-design/fist-guard/blob/main/.claude/skills/fist-guard/SKILL.md" target="_blank" rel="noopener noreferrer">Claude Skill ↗</a>
+        <a class="btn" id="lnLicense" href="https://github.com/textsmen-design/fist-guard/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Лицензия ↗</a>
+      </div>
+    </div>
+    <p class="license-note">Код можно смотреть и запускать для личного ознакомления. Это не open source: изменение, распространение и коммерческое использование — только с письменного разрешения автора.</p>
+  </div>
+</section>
+
+<!-- 9. ВИТРИНА И ЗАВОД -->
+<section class="sec" id="showroom">
+  <div class="wrap">
+    <div class="sec-h">
+      <p class="eyebrow">Принцип устройства</p>
+      <h2>OPEN SHOWROOM. PRIVATE FACTORY.</h2>
+    </div>
+    <div class="two-zones">
+      <div class="zone open"><span class="zone-ico" aria-hidden="true">◎</span><h3>Витрина — вы здесь</h3>
+        <ul><li>команда, примеры, готовые продукты</li><li>только проверенные материалы</li><li>связь напрямую через рабочую почту</li></ul></div>
+      <div class="gate" aria-hidden="true"><span>🔒</span><small>проходная</small></div>
+      <div class="zone closed"><span class="zone-ico" aria-hidden="true">▣</span><h3>Производство — закрыто</h3>
+        <ul><li>работа сотрудников и решения владельца</li><li>закрытые разработки</li><li>с сайтом не связано: идеи читает человек</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. АВТОР -->
+<section class="sec sec-dark author" id="contact">
+  <div class="wrap author-grid">
+    <div>
+      <p class="eyebrow">Кто создал</p>
+      <h2>Олег / GONKA LAB</h2>
+      <p class="big">FIST Guard — выпускной проект «Практического курса по вайб-кодингу на Claude Code» (ZeroCoder, CLm04), сделанный вместе с Claude Code. Эта витрина показывает лабораторию, в которой он появился.</p>
+    </div>
+    <div class="contact-card">
+      <a class="btn primary" href="#ideas">Рассказать идею</a>
+      <a class="btn" id="lnEmail" href="mailto:textsmen@yandex.ru?subject=%D0%98%D0%B4%D0%B5%D1%8F%20%D0%B4%D0%BB%D1%8F%20GONKA%20LAB">Написать на почту: textsmen@yandex.ru</a>
+      <a class="btn" id="lnProfile" href="https://github.com/textsmen-design" target="_blank" rel="noopener noreferrer">GitHub GONKA LAB ↗</a>
+      <a class="btn" id="lnReadme" href="https://github.com/textsmen-design/fist-guard#readme" target="_blank" rel="noopener noreferrer">README FIST Guard ↗</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top"><img src="assets/fist-mark.svg" alt="" width="26" height="26"><b>FIST × GONKA LAB</b><span>RAW IDEA IN. EXCEPTIONAL PRODUCT OUT.</span></div>
+    <p>© 2026 Олег / GONKA LAB. Все права защищены. <a href="privacy.html">Конфиденциальность</a></p>
+    <p class="small">Без cookies и аналитики. Персональные данные — только то, что вы сами укажете при обращении на почту.</p>
+    <p class="small">GONKA LAB и FIST Guard не связаны с ZeroCoder, Anthropic, OpenAI, Telegram, GitHub; названия принадлежат их правообладателям. Сотрудники FIST — ИИ-ассистенты, иллюстрации — собственная графика лаборатории.</p>
+  </div>
+</footer>
+
+<script src="assets/content.js?v=20261112_1"></script>
+<script src="assets/site.js?v=20261112_1"></script>
+</body>
+</html>

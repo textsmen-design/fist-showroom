@@ -1,0 +1,8 @@
+# PRE-LAUNCH: индексация закрыта до решения владельца о публичном запуске.
+# В день запуска заменить на:
+#   User-agent: *
+#   Allow: /
+#   Disallow: /api/
+#   Sitemap: https://fist.gonka.blog/sitemap.xml
+User-agent: *
+Disallow: /

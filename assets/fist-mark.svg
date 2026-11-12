@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2a65a"/><stop offset="1" stop-color="#b8541c"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1b1c20"/>
+  <!-- пять пальцев: пять полос, сжатых в кулак, ладонь снизу -->
+  <g fill="url(#g)">
+    <rect x="15" y="17" width="8" height="15" rx="4"/>
+    <rect x="24" y="14" width="8" height="18" rx="4"/>
+    <rect x="33" y="14" width="8" height="18" rx="4"/>
+    <rect x="42" y="17" width="8" height="15" rx="4"/>
+    <path d="M14 30h36v10c0 8-6 13-14 13h-8c-8 0-14-5-14-13z"/>
+    <rect x="9" y="30" width="9" height="13" rx="4.5" transform="rotate(-22 13 36)"/>
+  </g>
+  <path d="M20 41h22" stroke="#1b1c20" stroke-width="2.4" stroke-linecap="round" opacity=".55"/>
+</svg>
